@@ -1,15 +1,11 @@
 ---
-layout: page
+layout: about 
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a final year undergraduate at [Indian Institute of Technology Roorkee](http://www.iitr.ac.in). I'm interested in web development and technology in general. Using technology to solve real world problems and doing interesting stuff is what drives me. I have been coding in Python for the past 3 years, developed various scalable web applications along the way. I am primarily a backend guy although I have worked on front end development using bootstrap, ReactJS. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I also love open source.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+My resume is available on [request](mailto:goligautham@protonmail.com).
