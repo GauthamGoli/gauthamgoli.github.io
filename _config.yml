@@ -16,9 +16,11 @@
 title: Gautham Goli 
 email: goligautham@protonmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gauthamgoli.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: GauthamGoli
 google_analytics: UA-91809625-1
+disqus:
+  shortname: gauthamgoli-github-io
 
 
 # Build settings
