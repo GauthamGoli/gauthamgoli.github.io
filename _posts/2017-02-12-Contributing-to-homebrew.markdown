@@ -23,8 +23,7 @@ I started looking through the [open issues](https://github.com/Homebrew/brew/iss
 
 ### Getting the PR merged
 
-Finally, I wrote a [basic cop](https://github.com/GauthamGoli/rubocop-brew) and was able to test it. Not only that, now Cop violations can be automatically fixed by adding `--fix` flag to `brew audit`. If you have Rubocop editor integration, then cop violations will now get highlighted and reported as you type.
-Submitted a [Pull Request](https://github.com/Homebrew/brew/pull/1873) . The maintainers reviewed every single line of code/file change in the PR, which helped in making the code neat and readable. The PR got merged and code is shipped. I will now look into how audit rules can be converted to Custom Cops. 
+Finally, I wrote a [basic cop](https://github.com/GauthamGoli/rubocop-brew) and was able to test it and submitted a [Pull Request](https://github.com/Homebrew/brew/pull/1873) .The maintainers reviewed every single line of code/file change in the PR, which helped in making the code neat and readable. The PR got merged and code is shipped. Now Cop violations can be automatically fixed by adding `--fix` flag to `brew audit`. Not only that, If you have Rubocop editor integration, then cop violations will now get highlighted and reported as you type. I will now look into how audit rules can be converted to Custom Cops. 
 
 
 Homebrew's codebase is huge and now I will also try to go a bit deeper and gain general understanding of how everything fits together so that I can work on adding new features/fix bugs.
