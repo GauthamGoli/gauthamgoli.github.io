@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "GSoC '17 starts!"
-image: https://gauthamgoli.github.io/assets/GauthamGoli.jpg
+image: https://gauthamgoli.github.io/assets/gsoc-cover.jpg
 date:   2017-05-04 21:30:00 +0530
+author: GauthamGoli
 categories: blog
 ---
 ![GSoC 2017]({{ site.url }}/assets/GSoC-logo.png)
