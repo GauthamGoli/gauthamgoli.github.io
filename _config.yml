@@ -21,13 +21,14 @@ github_username: GauthamGoli
 google_analytics: UA-91809625-1
 disqus:
   shortname: gauthamgoli-github-io
-
+author: GauthamGoli
 
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
