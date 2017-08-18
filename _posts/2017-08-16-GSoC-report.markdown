@@ -21,11 +21,8 @@ Merged Pull Requests can be accessed here:
 Open Pull Requests can be accessed here:
  - [https://github.com/Homebrew/brew/pulls?q=is:pr&author:GauthamGoli&is:Open](https://github.com/Homebrew/brew/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AGauthamGoli+is%3Aopen)
 
-All the commits authored by me and got merged into Homebrew's master can be accessed here:
- - [https://github.com/Homebrew/brew/commits?author=gauthamgoli](https://github.com/Homebrew/brew/commits?author=gauthamgoli)
-
 <details>
-  <summary>&nbsp;&nbsp;&nbsp;List of all the PRs relevant to my GSoC Project <strong>(Click to expand)</strong></summary>
+  <summary>&nbsp;&nbsp;&nbsp;List of all the above PRs (both merged/open) <strong>(Click to expand)</strong></summary>
   <p>
 <!-- the above p cannot start right at the beginning of the line and is mandatory for everything else to work -->
 <h4>Pull requests that got merged during GSoC work period:</h4>
@@ -56,12 +53,40 @@ All the commits authored by me and got merged into Homebrew's master can be acce
 </ul>
 <h4> Pull requests still under review:</h4>
 <ul>
-    <li> <a href="https://github.com/Homebrew/brew/pull/2982">#2982: audit: Port audit_class to rubocop, add tests and autocorrect (OPEN)</a> </li>
-    <li> <a href="https://github.com/Homebrew/brew/pull/2995">#2995: audit: Port line_problems to rubocop and add tests part 2 (OPEN)</a> </li>
+    <li> <a href="https://github.com/Homebrew/brew/pull/2982">#2982: audit: Port audit_class to rubocop, add tests and autocorrect</a> </li>
+    <li> <a href="https://github.com/Homebrew/brew/pull/2995">#2995: audit: Port line_problems to rubocop and add tests part 2</a> </li>
+    <li> <a href="https://github.com/Homebrew/brew/pull/3063">#3063: audit: In Cops and their tests convert all multiline strings to heredocs</a> </li>
 </ul>
 </p></details>
-
 <br/>
+Alternatively, All the commits authored by me and got merged into Homebrew's master can be accessed here:
+ - [https://github.com/Homebrew/brew/commits?author=gauthamgoli](https://github.com/Homebrew/brew/commits?author=gauthamgoli)
+
+### Stats
+
+<div class="infogram-embed" data-id="9ba7f11c-5ddb-40ce-aed9-8a5e9ca3fa82" data-type="interactive" data-title="Welcome: Your first project"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script"),d=o[0],r=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=r+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var a=e.createElement("script");a.async=1,a.id=s,a.src=i,d.parentNode.insertBefore(a,d)}}(document,0,"infogram-async","//e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/9ba7f11c-5ddb-40ce-aed9-8a5e9ca3fa82" style="color:#989898!important;text-decoration:none!important;" target="_blank">Welcome: Your first project</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+
+### Project Learnings
+
+I made it a rule that I would contact my mentors for help only after I made multiple attempts at understanding and
+decent amount of Googling. [Searching through the whole git history](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/) has been very helpful, as it would mostly lead me to the first PR where the concerned contributor
+or maintainer would have written about the code. Thanks to the PR template checklist!
+
+I also learnt to not be afraid and jump into source code instead of reading the docs. RuboCop has a more user driven documentation, while
+documentation of its internals is rather scarce. By going through the source of RuboCop, I came across an undocumented
+and a powerful [feature](https://github.com/bbatsov/rubocop/blob/master/lib/rubocop/node_pattern.rb) of RuboCop. It greatly simplified some parts of my GSoC Project. Also, I reported a [bug](https://github.com/bbatsov/rubocop/issues/4437),
+and contributed in writing a new cop.
+I also got to understand how certain aspects of RuboCop offense checks work, thus preventing unexpected bugs in Homebrew.
+
+The reason why 3 out of the 15 methods could not be ported is because RuboCop
+ runs in a separate process and these methods use Homebrew's internals, hence are not available in that process. Unix sockets for interprocess communication(IPC) could be used
+ but making it complicated is just not worth it.
+
+Over all, it has been an amazing experience for me, working on a popular project, with awesome friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors and co interns.
+
 ### Credits
+
+A huge shout out to all the mentors at Homebrew and amazing people at Google for this opportunity and giving a headstart in OSS. You simply rock!
+Could never have done this without you all.
 
 Until next time and May the source be with you!
