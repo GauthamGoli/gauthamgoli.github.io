@@ -63,10 +63,14 @@ All Pull Requests in **[Homebrew/brew](https://github.com/Homebrew/brew)** by me
 
 ### Project Learnings
 
-I made it a rule that I would contact my mentors for help only after I made multiple attempts at understanding and
+Its often impulsive to just ask my mentors on slack what a particular piece of code would do, but I made it a rule that
+I would contact my mentors for help only after I made multiple attempts at understanding and
 decent amount of Googling. [Searching through the whole git history](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/) has been very helpful, as it would mostly lead me to the first PR where the concerned contributor
 or maintainer would have written about the code. This is where I understood the importance of PR template checklist. One of the checklist items is
 `Have you added an explanation of what your changes do and why you'd like us to include them?`
+
+I learnt to test my code extensively before opening a PR. The importance of this cannot be stressed enough. Do not ever be negligent and assume that
+your code will always work. Then things **will** break when that nasty edge case is encountered.
 
 I also learnt to not be afraid and jump into source code instead of reading the docs. RuboCop has a more user driven documentation, while
 documentation of its internals is rather scarce. By going through the source of RuboCop, I came across an undocumented
@@ -80,7 +84,7 @@ The reason why 3 out of the 15 methods could not be ported is because RuboCop
 
 ### Road ahead
 
-The `audit` rules have been ported to RuboCop cops. Now I would be looking at adding `autocorrect` methods, so correcting the style offenses across
+Whilst the `audit` rules have been ported to RuboCop cops, few of them have `autocorrect`. Now I would be looking at adding `autocorrect` methods, so correcting the style offenses across
 huge number of `Formulae` can be automated. I also look forward to continue contributing to Homebrew. Its the project which makes macOS usable to developers and I myself
 use `brew` heavily on a day to day basis.
 
