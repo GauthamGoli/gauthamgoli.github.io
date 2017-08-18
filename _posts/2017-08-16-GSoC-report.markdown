@@ -15,11 +15,8 @@ Past couple of months, I have been contributing to [Homebrew](https://github.com
 
 ### Summary
 
-Merged Pull Requests can be accessed here:
- - [https://github.com/Homebrew/brew/pulls?q=is:pr&author:GauthamGoli&is:Closed](https://github.com/Homebrew/brew/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AGauthamGoli+is%3Aclosed)
-
-Open Pull Requests can be accessed here:
- - [https://github.com/Homebrew/brew/pulls?q=is:pr&author:GauthamGoli&is:Open](https://github.com/Homebrew/brew/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AGauthamGoli+is%3Aopen)
+All Pull Requests in **[Homebrew/brew](https://github.com/Homebrew/brew)** by me can be accessed here:
+ - [https://github.com/Homebrew/brew/pulls?q=is:pr&author:GauthamGoli](https://github.com/Homebrew/brew/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3AGauthamGoli)
 
 <details>
   <summary>&nbsp;&nbsp;&nbsp;List of all the above PRs (both merged/open) <strong>(Click to expand)</strong></summary>
@@ -59,8 +56,6 @@ Open Pull Requests can be accessed here:
 </ul>
 </p></details>
 <br/>
-Alternatively, All the commits authored by me and got merged into Homebrew's master can be accessed here:
- - [https://github.com/Homebrew/brew/commits?author=gauthamgoli](https://github.com/Homebrew/brew/commits?author=gauthamgoli)
 
 ### Stats
 
@@ -70,17 +65,24 @@ Alternatively, All the commits authored by me and got merged into Homebrew's mas
 
 I made it a rule that I would contact my mentors for help only after I made multiple attempts at understanding and
 decent amount of Googling. [Searching through the whole git history](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/) has been very helpful, as it would mostly lead me to the first PR where the concerned contributor
-or maintainer would have written about the code. Thanks to the PR template checklist!
+or maintainer would have written about the code. This is where I understood the importance of PR template checklist. One of the checklist items is
+`Have you added an explanation of what your changes do and why you'd like us to include them?`
 
 I also learnt to not be afraid and jump into source code instead of reading the docs. RuboCop has a more user driven documentation, while
 documentation of its internals is rather scarce. By going through the source of RuboCop, I came across an undocumented
 and a powerful [feature](https://github.com/bbatsov/rubocop/blob/master/lib/rubocop/node_pattern.rb) of RuboCop. It greatly simplified some parts of my GSoC Project. Also, I reported a [bug](https://github.com/bbatsov/rubocop/issues/4437),
-and contributed in writing a new cop.
+and contributed in writing a new cop in RuboCop project.
 I also got to understand how certain aspects of RuboCop offense checks work, thus preventing unexpected bugs in Homebrew.
 
 The reason why 3 out of the 15 methods could not be ported is because RuboCop
  runs in a separate process and these methods use Homebrew's internals, hence are not available in that process. Unix sockets for interprocess communication(IPC) could be used
  but making it complicated is just not worth it.
+
+### Road ahead
+
+The `audit` rules have been ported to RuboCop cops. Now I would be looking at adding `autocorrect` methods, so correcting the style offenses across
+huge number of `Formulae` can be automated. I also look forward to continue contributing to Homebrew. Its the project which makes macOS usable to developers and I myself
+use `brew` heavily on a day to day basis.
 
 Over all, it has been an amazing experience for me, working on a popular project, with awesome friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors and co interns.
 
