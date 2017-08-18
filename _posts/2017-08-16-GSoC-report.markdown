@@ -88,7 +88,7 @@ Whilst the `audit` rules have been ported to RuboCop cops, few of them have `aut
 huge number of `Formulae` can be automated. I also look forward to continue contributing to Homebrew. Its the project which makes macOS usable to developers and I myself
 use `brew` heavily on a day to day basis.
 
-Over all, it has been an amazing experience for me, working on a popular project, with awesome friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors and co interns.
+Over all, it has been an amazing experience for me, working on a popular project, with awesome friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors ([MikeMcQuaid](https://github.com/MikeMcQuaid) & [Jcount](https://github.com/JCount)) and co interns.
 
 ### Credits
 
