@@ -61,13 +61,15 @@ All Pull Requests in **[Homebrew/brew](https://github.com/Homebrew/brew)** by me
 
 <div class="infogram-embed" data-id="9ba7f11c-5ddb-40ce-aed9-8a5e9ca3fa82" data-type="interactive" data-title="Welcome: Your first project"></div><script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script"),d=o[0],r=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(i)&&(i=r+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var a=e.createElement("script");a.async=1,a.id=s,a.src=i,d.parentNode.insertBefore(a,d)}}(document,0,"infogram-async","//e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/9ba7f11c-5ddb-40ce-aed9-8a5e9ca3fa82" style="color:#989898!important;text-decoration:none!important;" target="_blank">Welcome: Your first project</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
 
+### Project Description
+
+This project implements [RuboCop](https://github.com/bbatsov/rubocop/) custom cops to check Homebrew's coding style violations programmatically. More details can be
+found [here](https://gauthamgoli.github.io/blog/2017/05/04/Google-Summer-of-Code-starts.html) and [here](https://summerofcode.withgoogle.com/projects/#5375471609970688).
+
 ### Project Learnings
 
-Its often impulsive to just ask my mentors on slack what a particular piece of code would do, but I made it a rule that
-I would contact my mentors for help only after I made multiple attempts at understanding and
-decent amount of Googling. [Searching through the whole git history](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/) has been very helpful, as it would mostly lead me to the first PR where the concerned contributor
-or maintainer would have written about the code. This is where I understood the importance of PR template checklist. One of the checklist items is
-`Have you added an explanation of what your changes do and why you'd like us to include them?`
+[Searching through the whole git history](http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/) has been very helpful, as it would mostly lead me to the first PR where the concerned contributor
+or maintainer would have written about the code. PR checklist template FTW!
 
 I learnt to test my code extensively before opening a PR. The importance of this cannot be stressed enough. Do not ever be negligent and assume that
 your code will always work. Then things **will** break when that nasty edge case is encountered.
@@ -88,11 +90,15 @@ Whilst the `audit` rules have been ported to RuboCop cops, few of them have `aut
 huge number of `Formulae` can be automated. I also look forward to continue contributing to Homebrew. Its the project which makes macOS usable to developers and I myself
 use `brew` heavily on a day to day basis.
 
-Over all, it has been an amazing experience for me, working on a popular project, with awesome friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors ([MikeMcQuaid](https://github.com/MikeMcQuaid) & [Jcount](https://github.com/JCount)) and co interns.
+Over all, it has been an amazing experience for me, working on a popular project, with awesome supportive friendly [talented](https://soundcloud.com/mikemcquaid/sets/anticipated-hindsight) mentors ([MikeMcQuaid](https://github.com/MikeMcQuaid) & [Jcount](https://github.com/JCount)) and [co](https://github.com/raza15) [interns](https://github.com/mansimarkaur).
+
 
 ### Credits
 
-A huge shout out to all the mentors at Homebrew and amazing people at Google for this opportunity and giving a headstart in OSS. You simply rock!
-Could never have done this without you all.
+This project would never have gotten to this stage without the code reviews and discussions with my mentors.
+A huge shout out & sincere Thanks to all the mentors at Homebrew ([MikeMcQuaid](https://github.com/MikeMcQuaid), [Jcount](https://github.com/JCount),
+ [ilovezfs](https://github.com/ilovezfs), [alyssais](https://github.com/alyssais), [apjanke](https://github.com/apjanke) , [woodruffw](https://github.com/woodruffw),
+ [bfontaine](https://github.com/bfontaine) & others) and amazing people at Google for this opportunity and giving a headstart in OSS. You simply rock!
+
 
 Until next time and May the source be with you!
