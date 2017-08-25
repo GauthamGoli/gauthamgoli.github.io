@@ -77,7 +77,7 @@ your code will always work. Then things **will** break when that nasty edge case
 I also learnt to not be afraid and jump into source code instead of reading the docs. RuboCop has a more user driven documentation, while
 documentation of its internals is rather scarce. By going through the source of RuboCop, I came across an undocumented
 and a powerful [feature](https://github.com/bbatsov/rubocop/blob/master/lib/rubocop/node_pattern.rb) of RuboCop. It greatly simplified some parts of my GSoC Project. Also, I reported a [bug](https://github.com/bbatsov/rubocop/issues/4437),
-and contributed in writing a new cop in RuboCop project.
+and [contributed](https://github.com/bbatsov/rubocop/pull/4480) in writing a new cop in RuboCop project.
 I also got to understand how certain aspects of RuboCop offense checks work, thus preventing unexpected bugs in Homebrew.
 
 The reason why 3 out of the 15 methods could not be ported is because RuboCop
