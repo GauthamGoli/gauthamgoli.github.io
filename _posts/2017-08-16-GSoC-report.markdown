@@ -47,12 +47,14 @@ All Pull Requests in **[Homebrew/brew](https://github.com/Homebrew/brew)** by me
      <li> <a href="https://github.com/Homebrew/brew/pull/2976">#2976: audit: Port patches audit code to a rubocop and add tests</a> </li>
      <li> <a href="https://github.com/Homebrew/brew/pull/2980">#2980: audit: fix bug where `brew audit foo` runs every style check.</a> </li>
      <li> <a href="https://github.com/Homebrew/brew/pull/3012">#3012: Add node pattern methods to handle dependency audits in a better way</a> </li>
+     <li> <a href="https://github.com/Homebrew/brew/pull/2995">#2995: audit: Port line_problems to rubocop and add tests part 2</a> </li>
+     <li> <a href="https://github.com/Homebrew/brew/pull/3063">#3063: audit: In Cops and their tests convert all multiline strings to heredocs</a> </li>
+     <li> <a href="https://github.com/Homebrew/brew/pull/3087">#3087: audit: Add previously unported GH patch audit rule in Patches cop</a> </li>
 </ul>
 <h4> Pull requests still under review:</h4>
 <ul>
     <li> <a href="https://github.com/Homebrew/brew/pull/2982">#2982: audit: Port audit_class to rubocop, add tests and autocorrect</a> </li>
-    <li> <a href="https://github.com/Homebrew/brew/pull/2995">#2995: audit: Port line_problems to rubocop and add tests part 2</a> </li>
-    <li> <a href="https://github.com/Homebrew/brew/pull/3063">#3063: audit: In Cops and their tests convert all multiline strings to heredocs</a> </li>
+    <li> <a href="https://github.com/Homebrew/brew/pull/3091">#3091: audit: Port line_problems to rubocop and add tests part 3</a> </li>
 </ul>
 </p></details>
 <br/>
